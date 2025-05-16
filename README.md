@@ -28,6 +28,18 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install dependencies
 pip install -r requirements.txt
 
+#📁 Project Structure
+RAG-FinePrints/
+├── app/
+│   ├── rag.py                # PDF processing, chunking, embedding, and retrieval
+│   ├── gemini_api.py         # Gemini LLM integration via Google API
+│   └── data/                 # Folder containing PDF documents
+├── main.py                   # FastAPI app with endpoints
+├── .env                      # Environment variable with GOOGLE_API_KEY
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project documentation
+
+
 #🔐 Environment Variables
 
 GOOGLE_API_KEY=your_google_genai_api_key_here
