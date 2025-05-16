@@ -28,7 +28,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 Install dependencies
 pip install -r requirements.txt
 
-#📁 Project Structure
+# 📁 Project Structure
 RAG-FinePrints/
 ├── app/
 │   ├── rag.py                # PDF processing, chunking, embedding, and retrieval
@@ -40,7 +40,7 @@ RAG-FinePrints/
 └── README.md                 # Project documentation
 
 
-#🔐 Environment Variables
+# 🔐 Environment Variables
 
 GOOGLE_API_KEY=your_google_genai_api_key_here
 
@@ -49,7 +49,7 @@ GOOGLE_API_KEY=your_google_genai_api_key_here
 uvicorn main:app --reload
 Visit: http://127.0.0.1:8000/docs for the Swagger UI.
 
-#📦 Requirements
+# 📦 Requirements
 
 Sample requirements.txt:
 
@@ -61,7 +61,7 @@ sentence-transformers
 faiss-cpu
 PyMuPDF
 
-#💡 Use Cases
+# 💡 Use Cases
 
 Legal/contract analysis
 
